@@ -1,0 +1,367 @@
+Begin Object Class=/Script/Engine.Material Name="MagGun_SightLens_Mat"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionBumpOffset Name="MaterialExpressionBumpOffset_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionBumpOffset Name="MaterialExpressionBumpOffset_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_27"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_8"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_18"
+      A=(Expression=MaterialExpressionMultiply'"MagGun_SightLens_Mat:MaterialExpressionMultiply_3"')
+      B=(Expression=MaterialExpressionMultiply'"MagGun_SightLens_Mat:MaterialExpressionMultiply_4"')
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=-980
+      MaterialExpressionGuid=E7E7608749E4F46027CE3E813451B3A5
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionAdd_20"
+      A=(Expression=MaterialExpressionAdd'"MagGun_SightLens_Mat:MaterialExpressionAdd_28"')
+      B=(Expression=MaterialExpressionMultiply'"MagGun_SightLens_Mat:MaterialExpressionMultiply_26"')
+      MaterialExpressionEditorX=-820
+      MaterialExpressionEditorY=-340
+      MaterialExpressionGuid=E6735F2A4E1775F9D91269BA0A6C8A32
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionAdd_28"
+      A=(Expression=MaterialExpressionAdd'"MagGun_SightLens_Mat:MaterialExpressionAdd_18"')
+      B=(Expression=MaterialExpressionMultiply'"MagGun_SightLens_Mat:MaterialExpressionMultiply_23"')
+      MaterialExpressionEditorX=-1060
+      MaterialExpressionEditorY=-540
+      MaterialExpressionGuid=FC1772DE40E3690C3F1D83ACBA222F3D
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionAdd_29"
+      A=(Expression=MaterialExpressionTextureSample'"MagGun_SightLens_Mat:MaterialExpressionTextureSample_12"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=MaterialExpressionMultiply'"MagGun_SightLens_Mat:MaterialExpressionMultiply_27"')
+      MaterialExpressionEditorX=-2160
+      MaterialExpressionEditorY=-820
+      MaterialExpressionGuid=86096131444E802DCE782895B40DCD93
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionBumpOffset_2"
+      Height=(Expression=MaterialExpressionConstant'"MagGun_SightLens_Mat:MaterialExpressionConstant_5"')
+      MaterialExpressionEditorX=-2520
+      MaterialExpressionEditorY=260
+      MaterialExpressionGuid=A51585354B3EDDC277EDB88D7A922795
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionBumpOffset_3"
+      Height=(Expression=MaterialExpressionConstant'"MagGun_SightLens_Mat:MaterialExpressionConstant_3"')
+      MaterialExpressionEditorX=-2520
+      MaterialExpressionEditorY=-40
+      MaterialExpressionGuid=E76EA60C46E39D48758FAAB2CC60E27E
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionTextureSample'"MagGun_SightLens_Mat:MaterialExpressionTextureSample_7"',OutputIndex=1,Mask=1,MaskR=1)
+      Min=(Expression=MaterialExpressionScalarParameter'"MagGun_SightLens_Mat:MaterialExpressionScalarParameter_9"')
+      Max=(Expression=MaterialExpressionScalarParameter'"MagGun_SightLens_Mat:MaterialExpressionScalarParameter_8"')
+      MaterialExpressionEditorX=-1620
+      MaterialExpressionEditorY=360
+      MaterialExpressionGuid=16B757F54063AE0E04CB4FA27B3C0C03
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_18"
+      R=2.000000
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=0B5534964C5BAEF9D40D3FACA8448100
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_19"
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=420
+      MaterialExpressionGuid=179254CF4DD927A995A74B9B043D1236
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_23"
+      R=0.123894
+      MaterialExpressionEditorX=-2700
+      MaterialExpressionEditorY=-780
+      MaterialExpressionGuid=7BBBCE8D49827B090AB6B2B43452196E
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=-0.200000
+      MaterialExpressionEditorX=-2780
+      MaterialExpressionEditorY=-20
+      MaterialExpressionGuid=61016F2442C2F35C0AC23FB0F976B704
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.400000
+      MaterialExpressionEditorX=-2780
+      MaterialExpressionEditorY=300
+      MaterialExpressionGuid=E043C7424ED06117031CB3B272D443F3
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_5"
+      A=(Expression=MaterialExpressionConstant'"MagGun_SightLens_Mat:MaterialExpressionConstant_18"')
+      B=(Expression=MaterialExpressionConstant'"MagGun_SightLens_Mat:MaterialExpressionConstant_19"')
+      Alpha=(Expression=MaterialExpressionTextureSample'"MagGun_SightLens_Mat:MaterialExpressionTextureSample_11"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-700
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=8BDA10574FD3A193AAA53590CF128635
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_21"
+      A=(Expression=MaterialExpressionAdd'"MagGun_SightLens_Mat:MaterialExpressionAdd_20"')
+      B=(Expression=MaterialExpressionLinearInterpolate'"MagGun_SightLens_Mat:MaterialExpressionLinearInterpolate_5"')
+      MaterialExpressionEditorX=-460
+      MaterialExpressionEditorY=-20
+      MaterialExpressionGuid=6F636113443A1E4595B4EEA79A24657F
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_23"
+      A=(Expression=MaterialExpressionVectorParameter'"MagGun_SightLens_Mat:MaterialExpressionVectorParameter_11"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'"MagGun_SightLens_Mat:MaterialExpressionTextureSample_8"',OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-1420
+      MaterialExpressionEditorY=-500
+      MaterialExpressionGuid=186A0E8F4399D1A05731D8BF41D32A63
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_26"
+      A=(Expression=MaterialExpressionVectorParameter'"MagGun_SightLens_Mat:MaterialExpressionVectorParameter_17"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionClamp'"MagGun_SightLens_Mat:MaterialExpressionClamp_0"')
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=-200
+      MaterialExpressionGuid=979E7E6242EDD4753C2C9E81BFFA3987
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_27"
+      A=(Expression=MaterialExpressionConstant'"MagGun_SightLens_Mat:MaterialExpressionConstant_23"')
+      B=(Expression=MaterialExpressionTextureSample'"MagGun_SightLens_Mat:MaterialExpressionTextureSample_13"',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-2460
+      MaterialExpressionEditorY=-680
+      MaterialExpressionGuid=881FD68D4211A72F6BFFFCB6C78C09CA
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionVectorParameter'"MagGun_SightLens_Mat:MaterialExpressionVectorParameter_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'"MagGun_SightLens_Mat:MaterialExpressionTextureSample_13"',OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-1420
+      MaterialExpressionEditorY=-1200
+      MaterialExpressionGuid=24B032A84E5D789DE54773A95DDEC5EA
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionVectorParameter'"MagGun_SightLens_Mat:MaterialExpressionVectorParameter_8"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionAdd'"MagGun_SightLens_Mat:MaterialExpressionAdd_29"')
+      MaterialExpressionEditorX=-1420
+      MaterialExpressionEditorY=-840
+      MaterialExpressionGuid=EC18641744ECB81F1F6795B118E4B972
+      Material=Material'"MagGun_SightLens_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPanner_2"
+      SpeedY=0.200000
+      MaterialExpressionEditorX=-1260
+      MaterialExpressionEditorY=600
+      MaterialExpressionGuid=F304990D4A5F4F538146179CC7510E6E
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=0.300000
+      ParameterName="lerpB"
+      ExpressionGUID=5279E68B4821D43DAFC5D49ADA634FA8
+      MaterialExpressionEditorX=-1860
+      MaterialExpressionEditorY=540
+      MaterialExpressionGuid=0C6685194D7984435622148409F96649
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      ParameterName="lerpA"
+      ExpressionGUID=35E42F4D4758997768861A80DFE9AF95
+      MaterialExpressionEditorX=-1860
+      MaterialExpressionEditorY=440
+      MaterialExpressionGuid=B1C4294640F16970483C2DAA2A266696
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_11"
+      Coordinates=(Expression=MaterialExpressionPanner'"MagGun_SightLens_Mat:MaterialExpressionPanner_2"')
+      Texture=Texture2D'"/Game/Environment/Textures/holo_layer_1_5.holo_layer_1_5"'
+      MaterialExpressionEditorX=-940
+      MaterialExpressionEditorY=600
+      MaterialExpressionGuid=A76CB83946D799C25940DC9AF6AA3046
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_12"
+      Texture=Texture2D'"/Game/Weapons/Textures/SightLens_maskB.SightLens_maskB"'
+      MaterialExpressionEditorX=-2820
+      MaterialExpressionEditorY=-1140
+      MaterialExpressionGuid=22456FCB40DBAD994F485D9D1483CD1B
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_13"
+      Texture=Texture2D'"/Game/Weapons/Textures/SightLens_maskA.SightLens_maskA"'
+      MaterialExpressionEditorX=-2820
+      MaterialExpressionEditorY=-440
+      MaterialExpressionGuid=D5B2C4B6420A9D299FFB1891816A5161
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_7"
+      Coordinates=(Expression=MaterialExpressionBumpOffset'"MagGun_SightLens_Mat:MaterialExpressionBumpOffset_2"')
+      Texture=Texture2D'"/Game/Weapons/Textures/SightLens_maskB.SightLens_maskB"'
+      MaterialExpressionEditorX=-2180
+      MaterialExpressionEditorY=260
+      MaterialExpressionGuid=236DD05D4F471AAF3F6E58B7149CAA21
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_8"
+      Coordinates=(Expression=MaterialExpressionBumpOffset'"MagGun_SightLens_Mat:MaterialExpressionBumpOffset_3"')
+      Texture=Texture2D'"/Game/Weapons/Textures/SightLens_maskB.SightLens_maskB"'
+      MaterialExpressionEditorX=-2180
+      MaterialExpressionEditorY=-40
+      MaterialExpressionGuid=D15C61E34D6B87BFD680A08F901BC829
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_11"
+      DefaultValue=(R=0.059309,G=0.274222,B=1.000000,A=1.000000)
+      ParameterName="HUD_Colour3"
+      ExpressionGUID=037984C4425AFA75FBAA87A6F49FD6CB
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=-660
+      MaterialExpressionGuid=B05471FF491460C88F91558DD3622FAD
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_17"
+      DefaultValue=(R=1.000000,G=0.403220,B=0.000000,A=0.398230)
+      ParameterName="HUD_Colour4"
+      ExpressionGUID=F7890F5E421DC02822D16D85E31363FB
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=-420
+      MaterialExpressionGuid=C7BECDA14D5EBD4B8F2DC08185A76233
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=0.685000,G=0.000000,B=0.094483,A=1.000000)
+      ParameterName="HUD_Colour1"
+      ExpressionGUID=FA6B667140FA8D662DC325BF7B62117C
+      MaterialExpressionEditorX=-1860
+      MaterialExpressionEditorY=-1360
+      MaterialExpressionGuid=87A34F124337BF460CA21AA0BFD42F54
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_8"
+      DefaultValue=(R=0.012042,G=0.472219,B=0.888148,A=1.000000)
+      ParameterName="HUD_Colour2"
+      ExpressionGUID=C5AB308B416F8402E8D50BB525BF732A
+      MaterialExpressionEditorX=-1860
+      MaterialExpressionEditorY=-1100
+      MaterialExpressionGuid=D1D09DA248B851D7167B4A915DB85646
+      Material=Material'"MagGun_SightLens_Mat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_21"')
+   BlendMode=BLEND_Additive
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   OpacityMaskClipValue=0.200000
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionMultiply'"MaterialExpressionMultiply_21"'
+   Expressions(1)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_4"'
+   Expressions(2)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_8"'
+   Expressions(3)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_11"'
+   Expressions(4)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_17"'
+   Expressions(5)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(6)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(7)=MaterialExpressionMultiply'"MaterialExpressionMultiply_23"'
+   Expressions(8)=MaterialExpressionMultiply'"MaterialExpressionMultiply_26"'
+   Expressions(9)=MaterialExpressionAdd'"MaterialExpressionAdd_18"'
+   Expressions(10)=MaterialExpressionAdd'"MaterialExpressionAdd_28"'
+   Expressions(11)=MaterialExpressionAdd'"MaterialExpressionAdd_20"'
+   Expressions(12)=MaterialExpressionBumpOffset'"MaterialExpressionBumpOffset_2"'
+   Expressions(13)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(14)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_7"'
+   Expressions(15)=MaterialExpressionBumpOffset'"MaterialExpressionBumpOffset_3"'
+   Expressions(16)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(17)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_8"'
+   Expressions(18)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_5"'
+   Expressions(19)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_11"'
+   Expressions(20)=MaterialExpressionPanner'"MaterialExpressionPanner_2"'
+   Expressions(21)=MaterialExpressionConstant'"MaterialExpressionConstant_19"'
+   Expressions(22)=MaterialExpressionConstant'"MaterialExpressionConstant_18"'
+   Expressions(23)=MaterialExpressionConstant'"MaterialExpressionConstant_23"'
+   Expressions(24)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   Expressions(25)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"'
+   Expressions(26)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   Expressions(27)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_12"'
+   Expressions(28)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_13"'
+   Expressions(29)=MaterialExpressionAdd'"MaterialExpressionAdd_29"'
+   Expressions(30)=MaterialExpressionMultiply'"MaterialExpressionMultiply_27"'
+   StateId=E4A3D33147E1FA0360A309A8C441597C
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(8138358849568089899,14137823553831189848),ParameterInfos=((Name="lerpB"),(Name="lerpA")),ExpressionGuids=(5279E68B4821D43DAFC5D49ADA634FA8,35E42F4D4758997768861A80DFE9AF95),Overrides=(False,False)),RuntimeEntries[1]=(NameHashes=(5657197374501623639,6271274606963325383,7715498824322948311,7944529708477432101),ParameterInfos=((Name="HUD_Colour3"),(Name="HUD_Colour1"),(Name="HUD_Colour2"),(Name="HUD_Colour4")),ExpressionGuids=(037984C4425AFA75FBAA87A6F49FD6CB,FA6B667140FA8D662DC325BF7B62117C,C5AB308B416F8402E8D50BB525BF732A,F7890F5E421DC02822D16D85E31363FB),Overrides=(False,False,False,False)),ScalarValues=(0.300000,0.000000),VectorValues=((R=0.059309,G=0.274222,B=1.000000,A=1.000000),(R=0.685000,G=0.000000,B=0.094483,A=1.000000),(R=0.012042,G=0.472219,B=0.888148,A=1.000000),(R=1.000000,G=0.403220,B=0.000000,A=0.398230)),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None),VectorChannelNameValues=((),(),(),()),VectorUsedAsChannelMaskValues=(False,False,False,False)),ReferencedTextures=(Texture2D'"/Game/Weapons/Textures/SightLens_maskB.SightLens_maskB"',Texture2D'"/Game/Environment/Textures/holo_layer_1_5.holo_layer_1_5"',Texture2D'"/Game/Weapons/Textures/SightLens_maskA.SightLens_maskA"'),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=705601C94B5DE6AB98538487A7CCED80
+   ReferencedTextureGuids(1)=3FB28E454FF713DD7CD0CA905F59B044
+   ReferencedTextureGuids(2)=34F5F3E1412C59F157DD20B2BBD87AF5
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F1290AD5424F2A61007786BC79A42A0C
+End Object

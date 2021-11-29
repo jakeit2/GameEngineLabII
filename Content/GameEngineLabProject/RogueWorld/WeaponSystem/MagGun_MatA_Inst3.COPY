@@ -1,0 +1,37 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MagGun_MatA_Inst3"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Parent=Material'"/Game/Weapons/Materials/MagGun_MatA.MagGun_MatA"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="MasterGrimeColour"),ParameterValue=(R=0.275862,G=0.260367,B=0.252292,A=0.870833),ExpressionGUID=1021B6B945510B10B4702CB4B078B254)
+   VectorParameterValues(1)=(ParameterInfo=(Name="MasterPaintColour"),ParameterValue=(R=0.931035,G=0.009122,B=0.026905,A=1.000000),ExpressionGUID=7A9D841747AB5A0FAAB005A469A151F3)
+   VectorParameterValues(2)=(ParameterInfo=(Name="AO_D"),ParameterValue=(R=0.310345,G=0.310345,B=0.310345,A=1.000000),ExpressionGUID=B9AC1A1E4F2BE890CC4EA2AEE900C0E0)
+   VectorParameterValues(3)=(ParameterInfo=(Name="AO_L"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=8C115AED49377FCCF7446BB1AB80C0D4)
+   VectorParameterValues(4)=(ParameterInfo=(Name="Roughness_override"),ParameterValue=(R=0.448276,G=0.448276,B=0.448276,A=1.000000),ExpressionGUID=B92515AC4667D224191EEBA6AE7C102B)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=FA388F3147682C4DF1C227B131EBA5C2
+   ReferencedTextureGuids(1)=2C05BC2141B9DD1FDD7DCDACEE488965
+   ReferencedTextureGuids(2)=510BB8524231A48F62880085B85A8E27
+   ReferencedTextureGuids(3)=EE7667CA44C20A9EA37B02BF0FFCE360
+   ReferencedTextureGuids(4)=630A606F4A3082EE9B740D920418770F
+   ReferencedTextureGuids(5)=4C78E5854E350DED4710E6B8151EE27F
+   ReferencedTextureGuids(6)=3BC1ADAD4EB99D8EB3B8D7967766E545
+   ReferencedTextureGuids(7)=AC6B8C5A42B57C0F6A2BAD9EE5D78DC3
+   ReferencedTextureGuids(8)=5A26A6334E994FE65036CFB9D782A395
+   ReferencedTextureGuids(9)=D37CBD3041BBF04DEFD29C973DACC082
+   CachedReferencedTextures(0)=Texture2D'"/Game/Weapons/Textures/MagGun_01_N.MagGun_01_N"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Weapons/Textures/MagGunT1_section.MagGunT1_section"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Weapons/MaterialLayers/T_Rubber.T_Rubber"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Weapons/MaterialLayers/T_Metal_Metal02_D.T_Metal_Metal02_D"'
+   CachedReferencedTextures(4)=Texture2D'"/Game/Weapons/MaterialLayers/T_ExampleLayers_Metal02_N.T_ExampleLayers_Metal02_N"'
+   CachedReferencedTextures(5)=Texture2D'"/Game/Characters/Textures/Chr_FPS_Metal_02.Chr_FPS_Metal_02"'
+   CachedReferencedTextures(6)=Texture2D'"/Game/Weapons/MaterialLayers/T_PaintedMetal01_N.T_PaintedMetal01_N"'
+   CachedReferencedTextures(7)=Texture2D'"/Game/Weapons/MaterialLayers/T_PaintedMetal02.T_PaintedMetal02"'
+   CachedReferencedTextures(8)=Texture2D'"/Game/Weapons/Textures/MagGunT1_shade.MagGunT1_shade"'
+   CachedReferencedTextures(9)=None
+   CachedReferencedTextures(10)=Texture2D'"/Game/Weapons/Textures/MagGun_Decals.MagGun_Decals"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=E6B4CA3B48ADE7741323D3833E38405D
+End Object

@@ -1,0 +1,397 @@
+Begin Object Class=/Script/Engine.Material Name="MagGun_MatA"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObject Name="MaterialExpressionTextureObject_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_23"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=1100
+      SizeY=760
+      Text="AO"
+      MaterialExpressionEditorX=-3400
+      MaterialExpressionEditorY=1480
+      MaterialExpressionGuid=2E96A8FB42BBE57B1E57AEA488CBCE1F
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_9"
+      A=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_15"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_16"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_8"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2580
+      MaterialExpressionEditorY=1720
+      MaterialExpressionGuid=EAFEF19740ABD7FC2165B7BA390B0949
+      Material=Material'"MagGun_MatA"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_10"
+      MaterialFunction=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Metal_Gray.ML_Metal_Gray"'
+      FunctionInputs(0)=(ExpressionInputId=4B15D85A4EE42FA6F89C249ED914D769,Input=(OutputIndex=-1,InputName="Tint"))
+      FunctionInputs(1)=(ExpressionInputId=A818C5E34B3BBEA8DCAA3EADABE8F204,Input=(InputName="Scratch"))
+      FunctionInputs(2)=(ExpressionInputId=BCC4B0984A8EC62839D393A17B276E5E,Input=(Expression=MaterialExpressionMultiply'"MagGun_MatA:MaterialExpressionMultiply_6"',InputName="Grime"))
+      FunctionInputs(3)=(ExpressionInputId=133F3D854905B10A1073E6907C9EFA16,Input=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_23"',InputName="grimecolour",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(4)=(ExpressionInputId=EBC1F18D400CECC8980BAEBE44E47D2F,Input=(OutputIndex=-1,InputName="TextureTiling"))
+      FunctionOutputs(0)=(ExpressionOutputId=04B8B8984DFDC00A9E947CA2CC4895E9,Output=(OutputName="Material"))
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=70F1DADF4DD4DE659FC520A54100041C
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_11"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Decal.MatLayerBlend_Decal"'
+      FunctionInputs(0)=(ExpressionInputId=08A82E194C17EA9C7645E5945D6A1784,Input=(OutputIndex=-1,InputName="DecalRoughness"))
+      FunctionInputs(1)=(ExpressionInputId=6FE112154C50A9345FD725B6644D6A64,Input=(Expression=MaterialExpressionTextureObject'"MagGun_MatA:MaterialExpressionTextureObject_3"',InputName="DecalSheet"))
+      FunctionInputs(2)=(ExpressionInputId=9E2AF06746DC6F5ABBBC828CFE0601B3,Input=(OutputIndex=-1,InputName="DecalNormalFlatness"))
+      FunctionInputs(3)=(ExpressionInputId=C7584F90430CF6040EDB439CB5D4E1EB,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_25"',InputName="Base Material"))
+      FunctionOutputs(0)=(ExpressionOutputId=ECFE303F499D1D38BBFE47A33281F97A,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=E8076476428173F29A54E4846D5D4781
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_14"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_TintAllChannels.MatLayerBlend_TintAllChannels"'
+      FunctionInputs(0)=(ExpressionInputId=7551607540174E8847FDFEA7E6975C7D,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_11"',InputName="Material"))
+      FunctionInputs(1)=(ExpressionInputId=6FFD329D4F29DB65D71345AB1BDE70CB,Input=(Expression=MaterialExpressionLinearInterpolate'"MagGun_MatA:MaterialExpressionLinearInterpolate_9"',InputName="Tint"))
+      FunctionInputs(2)=(ExpressionInputId=6ECF380F4DADE7DA7FF17CA16532CF18,Input=(OutputIndex=1,InputName="TintMask",Mask=1,MaskR=1))
+      FunctionOutputs(0)=(ExpressionOutputId=F7C585F54643D8CAF0D51BBD9BDE2ADC,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=1360
+      MaterialExpressionGuid=A02E5A6A4F50B8C9A10C36954EC1EA03
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_15"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'
+      FunctionInputs(0)=(ExpressionInputId=EFA63D0B46EF032837E8199E5B36B3E0,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_10"',InputName="Base Material"))
+      FunctionInputs(1)=(ExpressionInputId=35B675B84041AED27688219B85171135,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_8"',InputName="Top Material"))
+      FunctionInputs(2)=(ExpressionInputId=58AB44C64FD9086FC6AAB1B042B32C2E,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=2,InputName="Alpha",Mask=1,MaskG=1))
+      FunctionOutputs(0)=(ExpressionOutputId=B7A48B68455CD8D9A45B3AAF57C5E97C,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=280
+      MaterialExpressionGuid=12F544564336263F2882F7B2B77ECAE9
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_16"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_RoughnessOverride.MatLayerBlend_RoughnessOverride"'
+      FunctionInputs(0)=(ExpressionInputId=7551607540174E8847FDFEA7E6975C7D,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_17"',InputName="Material"))
+      FunctionInputs(1)=(ExpressionInputId=6FFD329D4F29DB65D71345AB1BDE70CB,Input=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_2"',InputName="NewRoughness",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=6ECF380F4DADE7DA7FF17CA16532CF18,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=2,InputName="Mask",Mask=1,MaskG=1))
+      FunctionOutputs(0)=(ExpressionOutputId=F7C585F54643D8CAF0D51BBD9BDE2ADC,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=600
+      MaterialExpressionGuid=DF500AE04E0124F1E879A199E71C9A6C
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_17"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'
+      FunctionInputs(0)=(ExpressionInputId=EFA63D0B46EF032837E8199E5B36B3E0,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_15"',InputName="Base Material"))
+      FunctionInputs(1)=(ExpressionInputId=35B675B84041AED27688219B85171135,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_28"',InputName="Top Material"))
+      FunctionInputs(2)=(ExpressionInputId=58AB44C64FD9086FC6AAB1B042B32C2E,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=3,InputName="Alpha",Mask=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=B7A48B68455CD8D9A45B3AAF57C5E97C,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=440
+      MaterialExpressionGuid=6DC0A8B1439F30977A68AC84675FF26A
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_19"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.MatLayerBlend_BakedNormal"'
+      FunctionInputs(0)=(ExpressionInputId=B6A66478423F339DD914999E5208A17C,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_14"',InputName="Material"))
+      FunctionInputs(1)=(ExpressionInputId=F9FEFA684000E314746C9A8D4E3ECE8D,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_10"',InputName="Normal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=2B75887C4FC1F11625A6F7A1F0176058,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=1560
+      MaterialExpressionGuid=5CD09EC84DAE2E3FC6DDF9BA175EE765
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_23"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'
+      FunctionInputs(0)=(ExpressionInputId=EFA63D0B46EF032837E8199E5B36B3E0,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_16"',InputName="Base Material"))
+      FunctionInputs(1)=(ExpressionInputId=35B675B84041AED27688219B85171135,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_7"',InputName="Top Material"))
+      FunctionInputs(2)=(ExpressionInputId=58AB44C64FD9086FC6AAB1B042B32C2E,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=4,InputName="Alpha",Mask=1,MaskA=1))
+      FunctionOutputs(0)=(ExpressionOutputId=B7A48B68455CD8D9A45B3AAF57C5E97C,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=760
+      MaterialExpressionGuid=95F8C9CB471ED782157650B69165EF94
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_25"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'
+      FunctionInputs(0)=(ExpressionInputId=EFA63D0B46EF032837E8199E5B36B3E0,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_23"',InputName="Base Material"))
+      FunctionInputs(1)=(ExpressionInputId=35B675B84041AED27688219B85171135,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MagGun_MatA:MaterialExpressionMaterialFunctionCall_26"',InputName="Top Material"))
+      FunctionInputs(2)=(ExpressionInputId=58AB44C64FD9086FC6AAB1B042B32C2E,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=1,InputName="Alpha",Mask=1,MaskR=1))
+      FunctionOutputs(0)=(ExpressionOutputId=B7A48B68455CD8D9A45B3AAF57C5E97C,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-1800
+      MaterialExpressionEditorY=920
+      MaterialExpressionGuid=049BEAB8490BF439AC6A29B8D3423135
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_26"
+      MaterialFunction=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Rubber.ML_Rubber"'
+      FunctionInputs(0)=(ExpressionInputId=3ADE7C4346A82EBBECF6938D26F8A252,Input=(Expression=MaterialExpressionMultiply'"MagGun_MatA:MaterialExpressionMultiply_4"',InputName="Grime"))
+      FunctionInputs(1)=(ExpressionInputId=B05CD2A4423A94F90834A3A785A8743E,Input=(OutputIndex=3,InputName="scratch",Mask=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=3CAC80794EA633328006D9B022F07D01,Input=(OutputIndex=-1,InputName="Tint"))
+      FunctionInputs(3)=(ExpressionInputId=2BA654D44587D055DB505C97BDBDD660,Input=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_23"',InputName="grimecolour",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(4)=(ExpressionInputId=D40B871847FBFD2DDB7F92B403FA8C31,Input=(OutputIndex=-1,InputName="Tiling"))
+      FunctionOutputs(0)=(ExpressionOutputId=2CDB93144651310CC53D8C8EF02786B1,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=980
+      MaterialExpressionGuid=45A8B58F451A833FA6F9809E3BD8B536
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_28"
+      MaterialFunction=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Paint.ML_Paint"'
+      FunctionInputs(0)=(ExpressionInputId=2BA436FE41E5FE3B18C2D9AE9374082C,Input=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_20"',InputName="Tint",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=404933A2436657B361B118B481690ECC,Input=(Expression=MaterialExpressionMultiply'"MagGun_MatA:MaterialExpressionMultiply_6"',InputName="Grime"))
+      FunctionInputs(2)=(ExpressionInputId=2B8F1B204BF6983E14334A8E87BA62C1,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=4,InputName="Scratch",Mask=1,MaskA=1))
+      FunctionInputs(3)=(ExpressionInputId=5A198D7D4DA72FE07EE41F86F9E93BC9,Input=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_23"',InputName="grimecolour1",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(4)=(ExpressionInputId=EBC1F18D400CECC8980BAEBE44E47D2F,Input=(OutputIndex=-1,InputName="TextureTiling"))
+      FunctionOutputs(0)=(ExpressionOutputId=AF186D294BE2A9E8500AE2B5E5D65224,Output=(OutputName="Material"))
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=340
+      MaterialExpressionGuid=BB7486D04579D1BE2DFF039718A2BAA1
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_7"
+      MaterialFunction=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_BoltMetal.ML_BoltMetal"'
+      FunctionInputs(0)=(ExpressionInputId=59A4FB264C79D3E0EEB688BA40F9538D,Input=(Expression=MaterialExpressionMultiply'"MagGun_MatA:MaterialExpressionMultiply_4"',InputName="Grime"))
+      FunctionInputs(1)=(ExpressionInputId=ED2540174C915D6D6FF93EAF83CF0952,Input=(OutputIndex=4,InputName="Tint",Mask=1,MaskA=1))
+      FunctionInputs(2)=(ExpressionInputId=5E3C9A67443D95FAEF34108E83D2CEC9,Input=(OutputIndex=1,InputName="Scratch",Mask=1,MaskR=1))
+      FunctionOutputs(0)=(ExpressionOutputId=BB146780481D9C8B009172A13CC7A8B9,Output=(OutputName="Material"))
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=780
+      MaterialExpressionGuid=CF5C4EF140E705099D4F5DB9388A41AF
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_8"
+      MaterialFunction=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Metal_Copper.ML_Metal_Copper"'
+      FunctionInputs(0)=(ExpressionInputId=939C32AB465E03BF26873693C244C0DA,Input=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_23"',InputName="grimecolour",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=3CAC80794EA633328006D9B022F07D01,Input=(InputName="Tint"))
+      FunctionInputs(2)=(ExpressionInputId=D40B871847FBFD2DDB7F92B403FA8C31,Input=(OutputIndex=-1,InputName="Tiling"))
+      FunctionInputs(3)=(ExpressionInputId=450A08AA4EDE0DD2AE8AB9ACA58C672A,Input=(Expression=MaterialExpressionOneMinus'"MagGun_MatA:MaterialExpressionOneMinus_1"',InputName="Scratches"))
+      FunctionInputs(4)=(ExpressionInputId=F1416CE041B603D62108158BEC04CFBD,Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_8"',OutputIndex=3,InputName="Grime",Mask=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=2CDB93144651310CC53D8C8EF02786B1,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=140
+      MaterialExpressionGuid=2C1152A44328A7B4056165A2718749FE
+      Material=Material'"MagGun_MatA"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_8"',OutputIndex=3,Mask=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_23"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-3000
+      MaterialExpressionEditorY=380
+      MaterialExpressionGuid=74725ABD44D01DFA4C3277AA01E4EF54
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_8"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionVectorParameter'"MagGun_MatA:MaterialExpressionVectorParameter_23"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-3000
+      MaterialExpressionEditorY=200
+      MaterialExpressionGuid=8225C4A4454F08C2AFF0C1B9D9501B23
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_1"
+      Input=(Expression=MaterialExpressionTextureSample'"MagGun_MatA:MaterialExpressionTextureSample_0"',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-2751
+      MaterialExpressionEditorY=450
+      MaterialExpressionGuid=9616942F48A7003F9C0FB2B98A04E8E7
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureObject_3"
+      Texture=Texture2D'"/Game/Weapons/Textures/MagGun_Decals.MagGun_Decals"'
+      MaterialExpressionEditorX=-3000
+      MaterialExpressionEditorY=1060
+      MaterialExpressionGuid=CD854BBF42214CD0B79526B974363C74
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Weapons/Textures/MagGunT1_section.MagGunT1_section"'
+      MaterialExpressionEditorX=-2540
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=49B2E92142D6A40227DA07886328D513
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_10"
+      Texture=Texture2D'"/Game/Weapons/Textures/MagGun_01_N.MagGun_01_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-3000
+      MaterialExpressionEditorY=1260
+      MaterialExpressionGuid=1EA813DA4E9413D3B2513B9662DBB193
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_8"
+      Texture=Texture2D'"/Game/Weapons/Textures/MagGunT1_shade.MagGunT1_shade"'
+      MaterialExpressionEditorX=-3620
+      MaterialExpressionEditorY=640
+      MaterialExpressionGuid=ECC8925B47ADB379EF1DFF87FE588944
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_15"
+      DefaultValue=(R=1.500000,G=1.500000,B=1.500000,A=1.000000)
+      ParameterName="AO_L"
+      ExpressionGUID=8C115AED49377FCCF7446BB1AB80C0D4
+      MaterialExpressionEditorX=-3320
+      MaterialExpressionEditorY=1560
+      MaterialExpressionGuid=0DE8E04F4078CD4162CC908147210926
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_16"
+      DefaultValue=(R=0.129310,G=0.129310,B=0.129310,A=1.000000)
+      ParameterName="AO_D"
+      ExpressionGUID=B9AC1A1E4F2BE890CC4EA2AEE900C0E0
+      MaterialExpressionEditorX=-3360
+      MaterialExpressionEditorY=1840
+      MaterialExpressionGuid=F66289D8446E8B822E8394847F4B14EC
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.700000,G=0.700000,B=0.700000,A=1.000000)
+      ParameterName="Roughness_override"
+      ExpressionGUID=B92515AC4667D224191EEBA6AE7C102B
+      MaterialExpressionEditorX=-2800
+      MaterialExpressionEditorY=840
+      MaterialExpressionGuid=F3588D9540418EADD6D2C2A4BA04AA94
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_20"
+      DefaultValue=(R=0.847458,G=0.231807,B=0.010489,A=1.000000)
+      ParameterName="MasterPaintColour"
+      ExpressionGUID=7A9D841747AB5A0FAAB005A469A151F3
+      Group="test"
+      MaterialExpressionEditorX=-3620
+      MaterialExpressionEditorY=280
+      MaterialExpressionGuid=307EFDE340EEBA1827E55C80470F046B
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_23"
+      DefaultValue=(R=0.405172,G=0.028711,B=0.079175,A=1.000000)
+      ParameterName="MasterGrimeColour"
+      ExpressionGUID=1021B6B945510B10B4702CB4B078B254
+      Group="test"
+      MaterialExpressionEditorX=-3400
+      MaterialExpressionEditorY=-260
+      MaterialExpressionGuid=A47810104A1CCDA99D1C4D86E9EC5E66
+      Material=Material'"MagGun_MatA"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   BaseColor=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(OutputIndex=1,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(OutputIndex=3,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(OutputIndex=7,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(OutputIndex=4,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Opacity=(OutputIndex=5,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   OpacityMask=(OutputIndex=6,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   MaterialAttributes=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_19"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   EditorX=-944
+   EditorY=1168
+   Expressions(0)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_19"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_10"'
+   Expressions(2)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_14"'
+   Expressions(3)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_25"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(5)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_26"'
+   Expressions(6)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_23"'
+   Expressions(7)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_16"'
+   Expressions(8)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_17"'
+   Expressions(9)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_15"'
+   Expressions(10)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_9"'
+   Expressions(11)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_7"'
+   Expressions(12)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_10"'
+   Expressions(13)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_8"'
+   Expressions(14)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_28"'
+   Expressions(15)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_8"'
+   Expressions(16)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_11"'
+   Expressions(17)=MaterialExpressionTextureObject'"MaterialExpressionTextureObject_3"'
+   Expressions(18)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_15"'
+   Expressions(19)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_16"'
+   Expressions(20)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_1"'
+   Expressions(21)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(22)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_23"'
+   Expressions(23)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_20"'
+   Expressions(24)=MaterialExpressionMultiply'"MaterialExpressionMultiply_6"'
+   Expressions(25)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   bUseMaterialAttributes=True
+   StateId=082D856B4E4F85CF9AB5B8AFA3A5FF18
+   CachedExpressionData=(Parameters=(RuntimeEntries[1]=(NameHashes=(4079772091084989762,6674192539793476765,7663981794341544261,12043717110892049784,17853595026092461819),ParameterInfos=((Name="AO_D"),(Name="Roughness_override"),(Name="AO_L"),(Name="MasterPaintColour"),(Name="MasterGrimeColour")),ExpressionGuids=(B9AC1A1E4F2BE890CC4EA2AEE900C0E0,B92515AC4667D224191EEBA6AE7C102B,8C115AED49377FCCF7446BB1AB80C0D4,7A9D841747AB5A0FAAB005A469A151F3,1021B6B945510B10B4702CB4B078B254),Overrides=(False,False,False,False,False)),VectorValues=((R=0.129310,G=0.129310,B=0.129310,A=1.000000),(R=0.700000,G=0.700000,B=0.700000,A=1.000000),(R=1.500000,G=1.500000,B=1.500000,A=1.000000),(R=0.847458,G=0.231807,B=0.010489,A=1.000000),(R=0.405172,G=0.028711,B=0.079175,A=1.000000)),VectorChannelNameValues=((),(),(),(),()),VectorUsedAsChannelMaskValues=(False,False,False,False,False)),ReferencedTextures=(Texture2D'"/Game/Weapons/Textures/MagGun_01_N.MagGun_01_N"',Texture2D'"/Game/Weapons/Textures/MagGunT1_section.MagGunT1_section"',Texture2D'"/Game/Weapons/MaterialLayers/T_Rubber.T_Rubber"',Texture2D'"/Game/Weapons/MaterialLayers/T_Metal_Metal02_D.T_Metal_Metal02_D"',Texture2D'"/Game/Weapons/MaterialLayers/T_ExampleLayers_Metal02_N.T_ExampleLayers_Metal02_N"',Texture2D'"/Game/Characters/Textures/Chr_FPS_Metal_02.Chr_FPS_Metal_02"',Texture2D'"/Game/Weapons/MaterialLayers/T_PaintedMetal01_N.T_PaintedMetal01_N"',Texture2D'"/Game/Weapons/MaterialLayers/T_PaintedMetal02.T_PaintedMetal02"',Texture2D'"/Game/Weapons/Textures/MagGunT1_shade.MagGunT1_shade"',None,Texture2D'"/Game/Weapons/Textures/MagGun_Decals.MagGun_Decals"'),FunctionInfos=((StateId=F5C2D4774BA63455E32B4B960D7674B6,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.BlendAngleCorrectedNormals"'),(StateId=63CF6400405C4A0AD2F218A7AAC5C7BF,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.MatLayerBlend_BakedNormal"'),(StateId=596EBD1346B77E6CE7E98C86C903FB25,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_TintAllChannels.MatLayerBlend_TintAllChannels"'),(StateId=892D7BBB413A0586E4D10BA8F0545AD5,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'),(StateId=EABA5FE04DF7D09673809A82BD2DBE9E,Function=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Rubber.ML_Rubber"'),(StateId=892D7BBB413A0586E4D10BA8F0545AD5,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'),(StateId=7E40A6F74EFAD42873C1159FB7EE6DC1,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_RoughnessOverride.MatLayerBlend_RoughnessOverride"'),(StateId=892D7BBB413A0586E4D10BA8F0545AD5,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'),(StateId=892D7BBB413A0586E4D10BA8F0545AD5,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard"'),(StateId=C03004FE4CA26970AB3B1B9FE1F26AF9,Function=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_BoltMetal.ML_BoltMetal"'),(StateId=5DC080344DF579D3880606831D735C7B,Function=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Metal_Gray.ML_Metal_Gray"'),(StateId=FE67B48A44296B30FBF15EBB0FC10ADF,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal"'),(StateId=010154C34021D05B599FA48E67277647,Function=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Metal_Copper.ML_Metal_Copper"'),(StateId=FE67B48A44296B30FBF15EBB0FC10ADF,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal"'),(StateId=FB23A36148EE14B8FC4B58969F233D5B,Function=MaterialFunction'"/Game/Weapons/MaterialLayers/ML_Paint.ML_Paint"'),(StateId=82177DB1401621077F4B94B826E0442A,Function=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Decal.MatLayerBlend_Decal"')),QualityLevelsUsed=(True,False,False,False))
+   ReferencedTextureGuids(0)=FA388F3147682C4DF1C227B131EBA5C2
+   ReferencedTextureGuids(1)=2C05BC2141B9DD1FDD7DCDACEE488965
+   ReferencedTextureGuids(2)=510BB8524231A48F62880085B85A8E27
+   ReferencedTextureGuids(3)=EE7667CA44C20A9EA37B02BF0FFCE360
+   ReferencedTextureGuids(4)=630A606F4A3082EE9B740D920418770F
+   ReferencedTextureGuids(5)=4C78E5854E350DED4710E6B8151EE27F
+   ReferencedTextureGuids(6)=3BC1ADAD4EB99D8EB3B8D7967766E545
+   ReferencedTextureGuids(7)=1743FDBB4BFCA3A8D9550584048CA101
+   ReferencedTextureGuids(8)=5A26A6334E994FE65036CFB9D782A395
+   ReferencedTextureGuids(9)=D37CBD3041BBF04DEFD29C973DACC082
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_2"'
+   ParameterOverviewExpansion=(("-12Global", True),("-12Global test", True))
+   LightingGuid=F9ADF65744BA08099AC8EEABDCFD9851
+End Object

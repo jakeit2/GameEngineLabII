@@ -1,0 +1,20 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MagGun_SightLens_Mat_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Parent=Material'"/Game/Weapons/Materials/MagGun_SightLens_Mat.MagGun_SightLens_Mat"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="lerpA"),ExpressionGUID=35E42F4D4758997768861A80DFE9AF95)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="lerpB"),ParameterValue=0.293210,ExpressionGUID=5279E68B4821D43DAFC5D49ADA634FA8)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="HUD_Colour4"),ParameterValue=(R=1.000000,G=0.409335,B=0.000000,A=1.000000),ExpressionGUID=F7890F5E421DC02822D16D85E31363FB)
+   BasePropertyOverrides=(BlendMode=BLEND_Additive,ShadingModel=MSM_Unlit,OpacityMaskClipValue=0.200000)
+   ReferencedTextureGuids(0)=705601C94B5DE6AB98538487A7CCED80
+   ReferencedTextureGuids(1)=3FB28E454FF713DD7CD0CA905F59B044
+   ReferencedTextureGuids(2)=34F5F3E1412C59F157DD20B2BBD87AF5
+   CachedReferencedTextures(0)=Texture2D'"/Game/Weapons/Textures/SightLens_maskB.SightLens_maskB"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Environment/Textures/holo_layer_1_5.holo_layer_1_5"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Weapons/Textures/SightLens_maskA.SightLens_maskA"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=BF765048421CE7B5229245ACC60AA0A6
+End Object
